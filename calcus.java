@@ -20,15 +20,18 @@ public class JavaApplication2{
     public static void main(String[] args) {
         // TODO code application logic here
 
-        System.out.println("Enter two numbers");
+        System.out.println("Enter three numbers");
         Scanner scanner = new  Scanner(System.in);
         Scanner sec = new  Scanner(System.in);
+        Scanner third = new Scanner(System.in);
+
         int a = scanner.nextInt();
          int b = scanner.nextInt();
+         int c = scanner.nextInt();
          
         int sum;
         
-        sum = a + b;
+        sum = a + b + c;
         
         System.out.println("The sum " + sum);
     }
