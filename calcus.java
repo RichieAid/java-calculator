@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package javaapplication2;
+
+import java.util.Scanner;
 
 /**
  *
  * @author user
  */
-public class JavaApplication1 {
+public class JavaApplication2{
 
     /**
     * m
@@ -17,13 +19,18 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int a = 7,b = 3;
+
+        System.out.println("Enter two numbers");
+        Scanner scanner = new  Scanner(System.in);
+        Scanner sec = new  Scanner(System.in);
+        int a = scanner.nextInt();
+         int b = scanner.nextInt();
+         
         int sum;
         
         sum = a + b;
         
-        System.out.println(sum);
+        System.out.println("The sum " + sum);
     }
     
 }
